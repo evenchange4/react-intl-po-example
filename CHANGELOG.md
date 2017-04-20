@@ -1,4 +1,4 @@
-## cra-boilerplate changelogs
+## Changelogs
 
 ## 0.1.0
 
