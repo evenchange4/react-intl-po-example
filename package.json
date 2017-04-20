@@ -4,15 +4,20 @@
   "private": true,
   "dependencies": {
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-intl": "^2.2.3"
   },
   "devDependencies": {
+    "react-intl-cra": "^0.1.9",
+    "react-intl-po": "^2.0.2",
     "react-scripts": "0.9.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "extract:messages": "react-intl-cra 'src/**/*.js' 'output/messages.json'",
+    "extract:pot": "react-intl-po json2pot 'output/messages.json' -o 'output/messages.pot'"
   }
 }

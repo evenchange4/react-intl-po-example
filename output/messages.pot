@@ -1,0 +1,15 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2017-04-20T09:03:06.143Z\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"X-Generator: react-intl-po\n"
+
+
+#: output/messages.json
+#. [welcome]
+#. defaultMessage is:
+#. Hello Michael Hsu
+msgid "Hello Michael Hsu"
+msgstr ""
