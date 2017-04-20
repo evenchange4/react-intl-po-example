@@ -11,6 +11,8 @@ notifications:
 script:
   # - yarn run test
   - yarn run build
+  - yarn run extract:messages
+  - yarn run extract:pot
 
 cache:
   yarn: true
