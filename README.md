@@ -2,6 +2,8 @@
 
 > This is a standalone project for using react-intl-po with CRA.
 
+![Demo](./docs/demo.png)
+
 ## Logs
 
 ### 1. Create a project with zero config
