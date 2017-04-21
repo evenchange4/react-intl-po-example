@@ -22,6 +22,6 @@ $ yarn add react-intl react-intl-po react-intl-cra
 ```
 
 ```diff
-"extract:messages": "react-intl-cra 'src/**/*.js' 'output/messages.json'",
-+"extract:pot": "react-intl-po json2pot 'output/messages.json' -o 'output/messages.pot'"
+  "extract:messages": "react-intl-cra 'src/**/*.js' 'output/messages.json'",
++ "extract:pot": "react-intl-po json2pot 'output/messages.json' -o 'output/messages.pot'"
 ```
