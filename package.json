@@ -18,6 +18,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "extract:messages": "react-intl-cra 'src/**/*.js' 'output/messages.json'",
-    "extract:pot": "react-intl-po json2pot 'output/messages.json' -o 'output/messages.pot'"
+    "extract:pot": "react-intl-po json2pot 'output/messages.json' -o 'output/messages.pot'",
+    "extract:pot-c": "react-intl-po json2pot 'output/messages.json' -c 'id' -o 'output/messages-c.pot'"
   }
 }
