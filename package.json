@@ -10,7 +10,7 @@
   "devDependencies": {
     "react-intl-cra": "^0.2.0",
     "react-intl-po": "^2.0.2",
-    "react-scripts": "1.0.5"
+    "react-scripts": "1.0.6"
   },
   "scripts": {
     "start": "react-scripts start",
