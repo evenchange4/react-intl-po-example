@@ -19,6 +19,7 @@
     "eject": "react-scripts eject",
     "extract:messages": "react-intl-cra 'src/**/*.js' 'output/messages.json'",
     "extract:pot": "react-intl-po json2pot 'output/messages.json' -o 'output/messages.pot'",
-    "extract:pot-c": "react-intl-po json2pot 'output/messages.json' -c 'id' -o 'output/messages-c.pot'"
+    "extract:pot-c": "react-intl-po json2pot 'output/messages.json' -c 'id' -o 'output/messages-c.pot'",
+    "extract:po-c": "react-intl-po po2json 'input/*.po' -c 'id' -m 'output/messages.json' -o 'output/translation.json'"
   }
 }

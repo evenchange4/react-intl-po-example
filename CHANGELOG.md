@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+## [v0.1.2]
+> Jul 19, 2017
+
+* feat(po2json): update readme & add tutorials
+
 ## [v0.1.1]
 > Jul 19, 2017
 
