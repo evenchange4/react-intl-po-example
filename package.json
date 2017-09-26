@@ -3,7 +3,7 @@
   "version": "0.1.2",
   "private": true,
   "dependencies": {
-    "react": "^15.5.4",
+    "react": "^16.0.0",
     "react-dom": "^15.5.4",
     "react-intl": "^2.3.0"
   },
