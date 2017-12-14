@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+* chore(npm): update dependencies
+
 ## [v0.1.2]
 > Jul 19, 2017
 
