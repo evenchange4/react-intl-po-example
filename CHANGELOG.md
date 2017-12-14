@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+## [v0.1.3]
+> Dec 14, 2017
+
 * chore(npm): update dependencies
 
 ## [v0.1.2]
