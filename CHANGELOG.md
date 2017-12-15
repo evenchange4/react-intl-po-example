@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+* chore(npm): update react-intl-cra
+
 ## [v0.1.3]
 > Dec 14, 2017
 

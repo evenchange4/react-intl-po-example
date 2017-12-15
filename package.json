@@ -8,7 +8,7 @@
     "react-intl": "^2.4.0"
   },
   "devDependencies": {
-    "react-intl-cra": "^0.2.12",
+    "react-intl-cra": "^0.3.0",
     "react-intl-po": "^2.1.1",
     "react-scripts": "^1.0.17"
   },
@@ -17,7 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "extract:messages": "react-intl-cra 'src/**/*.js' 'output/messages.json'",
+    "extract:messages": "react-intl-cra 'src/**/*.js' -o 'output/messages.json'",
     "extract:pot": "react-intl-po json2pot 'output/messages.json' -o 'output/messages.pot'",
     "extract:pot-c": "react-intl-po json2pot 'output/messages.json' -c 'id' -o 'output/messages-c.pot'",
     "extract:po-c": "react-intl-po po2json 'input/*.po' -c 'id' -m 'output/messages.json' -o 'output/translation.json'"
