@@ -24,7 +24,7 @@ $ yarn add react-intl react-intl-cra
 ```
 
 ```diff
-+ "extract:messages": "react-intl-cra 'src/**/*.js' 'output/messages.json'",
++ "extract:messages": "react-intl-cra 'src/**/*.js' -o 'output/messages.json'",
 ```
 
 -   Input: Your React-intl Components

@@ -5204,15 +5204,17 @@ react-error-overlay@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-3.0.0.tgz#c2bc8f4d91f1375b3dad6d75265d51cd5eeaf655"
 
-react-intl-cra@^0.2.12:
-  version "0.2.12"
-  resolved "https://registry.yarnpkg.com/react-intl-cra/-/react-intl-cra-0.2.12.tgz#bf2aca0d70cf5d6057c1e35d668eed76245218e5"
+react-intl-cra@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/react-intl-cra/-/react-intl-cra-0.3.0.tgz#e03ca0cb48d98a40d94fdaa84d0d087974f4a812"
   dependencies:
     babel-core "^6.26.0"
     babel-plugin-react-intl "^2.3.1"
     babel-preset-react-app "^3.1.0"
+    chalk "^2.3.0"
     glob "^7.1.2"
     ramda "^0.25.0"
+    yargs "^10.0.3"
 
 react-intl-po@^2.1.1:
   version "2.1.1"
@@ -6660,6 +6662,29 @@ yargs-parser@^7.0.0:
   resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-7.0.0.tgz#8d0ac42f16ea55debd332caf4c4038b3e3f5dfd9"
   dependencies:
     camelcase "^4.1.0"
+
+yargs-parser@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-8.0.0.tgz#21d476330e5a82279a4b881345bf066102e219c6"
+  dependencies:
+    camelcase "^4.1.0"
+
+yargs@^10.0.3:
+  version "10.0.3"
+  resolved "https://registry.yarnpkg.com/yargs/-/yargs-10.0.3.tgz#6542debd9080ad517ec5048fb454efe9e4d4aaae"
+  dependencies:
+    cliui "^3.2.0"
+    decamelize "^1.1.1"
+    find-up "^2.1.0"
+    get-caller-file "^1.0.1"
+    os-locale "^2.0.0"
+    require-directory "^2.1.1"
+    require-main-filename "^1.0.1"
+    set-blocking "^2.0.0"
+    string-width "^2.0.0"
+    which-module "^2.0.0"
+    y18n "^3.2.1"
+    yargs-parser "^8.0.0"
 
 yargs@^6.6.0:
   version "6.6.0"
