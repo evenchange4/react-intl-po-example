@@ -8,7 +8,7 @@
     "react-intl": "^2.4.0"
   },
   "devDependencies": {
-    "react-intl-cra": "^0.2.12",
+    "react-intl-cra": "^0.3.0",
     "react-intl-po": "^2.1.1",
     "react-scripts": "^1.0.17"
   },
