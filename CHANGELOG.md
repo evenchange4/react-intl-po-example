@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## [v0.1.5]
+> Jan 16, 2018
+* chore(npm): update & regenerate yarn.lock
+
 ## [v0.1.4]
 > Dec 15, 2017
 * chore(npm): update react-intl-cra
