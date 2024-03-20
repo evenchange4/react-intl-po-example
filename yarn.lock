@@ -5248,9 +5248,10 @@ react-error-overlay@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-4.0.0.tgz#d198408a85b4070937a98667f500c832f86bd5d4"
 
-react-intl-cra@0.3.3:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/react-intl-cra/-/react-intl-cra-0.3.3.tgz#1f5bef669704047072f98746e627dfa102b674dd"
+react-intl-cra@0.3.4:
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/react-intl-cra/-/react-intl-cra-0.3.4.tgz#46eaeeb578e3c0c725351f6aee2ad3dddce58140"
+  integrity sha512-EVIWUlEAt5texVIqPODd61rPy4lEBf025fdDxW/2/Y+FNTYGAAEngMNK4rrx8pGDX76bDVuKvY9mHSIhm4duoQ==
   dependencies:
     babel-core "^6.26.0"
     babel-plugin-react-intl "^2.4.0"
