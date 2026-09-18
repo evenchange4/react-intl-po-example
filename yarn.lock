@@ -2,6 +2,32 @@
 # yarn lockfile v1
 
 
+"@formatjs/fast-memoize@3.1.7":
+  version "3.1.7"
+  resolved "https://registry.yarnpkg.com/@formatjs/fast-memoize/-/fast-memoize-3.1.7.tgz#5f79b3756e4bcb5faee47b3a2f01216e1212c9e4"
+  integrity sha512-zXfhLpvA6T7+efdt9JLbBwZ00tT7NsBMDVnDu8rpHeNNv8KfRZAMo2gkG0k9lK/Nzc//3kJ9pImsfuJxk3KhUA==
+
+"@formatjs/icu-messageformat-parser@3.5.19":
+  version "3.5.19"
+  resolved "https://registry.yarnpkg.com/@formatjs/icu-messageformat-parser/-/icu-messageformat-parser-3.5.19.tgz#fdbf1c4c515f4651ad15ea8753ef1fe37db5bb68"
+  integrity sha512-a5PAqgd3QPUge635SxrjPLIlTErcGwm3AMyTdmZXl0IqWXTdCx9AnuioEmvEZAV2HpeFdynLPXMvHv7dXGEWWw==
+  dependencies:
+    "@formatjs/icu-skeleton-parser" "2.1.12"
+
+"@formatjs/icu-skeleton-parser@2.1.12":
+  version "2.1.12"
+  resolved "https://registry.yarnpkg.com/@formatjs/icu-skeleton-parser/-/icu-skeleton-parser-2.1.12.tgz#5471028b1f2516c63456aba92d109a0d230d2a0f"
+  integrity sha512-ca7tZMLpfHX3sUD7hP6gE/qr6Iq89EDd3ZLeRhbsB7r0UD55DGJq+tmFLzrGrnx5StahUevQmQQVtbDRHsfDHA==
+
+"@formatjs/intl@6.1.1":
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/@formatjs/intl/-/intl-6.1.1.tgz#0ec3e0e58f3a232d3a20bb84ec2468161d78f485"
+  integrity sha512-kKxt7HZrmlSChntA4OAD5DlaDcKeUJOOvWKA/7ORiM1dQ+GYuiIz6FuDOkMeo/aVzSJ6hA25etFAtCnHEalqJw==
+  dependencies:
+    "@formatjs/fast-memoize" "3.1.7"
+    "@formatjs/icu-messageformat-parser" "3.5.19"
+    intl-messageformat "12.1.1"
+
 abab@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/abab/-/abab-1.0.4.tgz#5faad9c2c07f60dd76770f71cf025b62a63cfd4e"
@@ -3231,27 +3257,19 @@ interpret@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/interpret/-/interpret-1.1.0.tgz#7ed1b1410c6a0e0f78cf95d3b8440c63f78b8614"
 
-intl-format-cache@^2.0.5:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/intl-format-cache/-/intl-format-cache-2.1.0.tgz#04a369fecbfad6da6005bae1f14333332dcf9316"
-
-intl-messageformat-parser@1.4.0, intl-messageformat-parser@^1.2.0:
+intl-messageformat-parser@^1.2.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/intl-messageformat-parser/-/intl-messageformat-parser-1.4.0.tgz#b43d45a97468cadbe44331d74bb1e8dea44fc075"
 
-intl-messageformat@^2.0.0, intl-messageformat@^2.1.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/intl-messageformat/-/intl-messageformat-2.2.0.tgz#345bcd46de630b7683330c2e52177ff5eab484fc"
+intl-messageformat@12.1.1:
+  version "12.1.1"
+  resolved "https://registry.yarnpkg.com/intl-messageformat/-/intl-messageformat-12.1.1.tgz#12f89441e870754cee7fb312b346b4ec51656c25"
+  integrity sha512-ZNwni2Ihmge8FZ0O+n7JQXHNAZfFGN/ovLrIxyfFK/bEsnHV2bG3W75Z24GdKmMepiq21SiMfANNPze+xjSCHA==
   dependencies:
-    intl-messageformat-parser "1.4.0"
+    "@formatjs/fast-memoize" "3.1.7"
+    "@formatjs/icu-messageformat-parser" "3.5.19"
 
-intl-relativeformat@^2.0.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/intl-relativeformat/-/intl-relativeformat-2.1.0.tgz#010f1105802251f40ac47d0e3e1a201348a255df"
-  dependencies:
-    intl-messageformat "^2.0.0"
-
-invariant@^2.1.1, invariant@^2.2.2:
+invariant@^2.2.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.2.tgz#9e1f56ac0acdb6bf303306f338be3b204ae60360"
   dependencies:
@@ -5271,14 +5289,14 @@ react-intl-po@2.2.0:
     po2json "^0.4.5"
     ramda "^0.25.0"
 
-react-intl@2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-2.4.0.tgz#66c14dc9df9a73b2fbbfbd6021726e80a613eb15"
+react-intl@12.1.1:
+  version "12.1.1"
+  resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-12.1.1.tgz#df53542b3af4e88f41ad317cd061f39ed8e3013c"
+  integrity sha512-W+i+eifLA3ZTVmAtdfjU7+2dBPAapJeaFwHGKeEyVv1xYUft6tBEU5z1dmgvJlkgs6mn8phFHP5wQQIfU1SjCQ==
   dependencies:
-    intl-format-cache "^2.0.5"
-    intl-messageformat "^2.1.0"
-    intl-relativeformat "^2.0.0"
-    invariant "^2.1.1"
+    "@formatjs/icu-messageformat-parser" "3.5.19"
+    "@formatjs/intl" "6.1.1"
+    intl-messageformat "12.1.1"
 
 react-scripts@1.1.1:
   version "1.1.1"
